@@ -67,10 +67,6 @@ top level of the local directory. The corresponding `save_predictions`
 function is defined in `util.py`. The predictions made are equivalent to
 those submitted during the competition.
 
-Execution of the `pred.py` file in 'train' mode encompasses steps
-identical to those outlined above with the exception of the model being
-trained as opposed to loaded from file. In this case, the predictions
-will not be identical to those submitted during the competition.
 
 The file name for the predictions can be changed in section '# Set file
 names' at the top of `pred.py`, if required.
