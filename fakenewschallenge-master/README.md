@@ -81,7 +81,7 @@ The file name for the predictions can be changed in section '# Set file
 names' at the top of `pred.py`, if required.
 
 We downloaded the officially released labeled test set data after the competition
-and used test.py for testing, which includes the official evaluation indicators 
+and used `test.py` for testing, which includes the official evaluation indicators 
 and more objective indicators such as f1.
 
 
