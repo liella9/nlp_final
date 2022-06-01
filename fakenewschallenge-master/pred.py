@@ -20,7 +20,6 @@ import tensorflow as tf
 
 
 # Prompt for mode
-# mode = input('mode (load / train)? ')
 mode='train'
 
 
