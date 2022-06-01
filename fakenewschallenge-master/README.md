@@ -50,8 +50,6 @@ The `pred.py` script can be run in two different modes: 'load' or
 'train'. Upon running the `pred.py` file, the user is requested to input
 the desired mode.
 
-Execution of the `pred.py` file in 'load' mode entails the
-following:
 
 * The train set will be loaded from `train_stances.csv` and
 `train_bodies.csv` using the corresponding `FNCData` class defined in
@@ -62,9 +60,6 @@ following:
 of the file.
 * The train and test sets are then respectively processed by the
 `pipeline_train` and `pipeline_test` functions defined in `util.py`.
-* The `TensorFlow` model saved in the `model` directory is then loaded
-in place of the model definition in `pred.py`. The associated
-`load_model` function can be found in `util.py`.
 * The model is then used to predict the labels on the processed test
 set.
 * The predictions are then saved in a `predictions_test.csv` file in the
